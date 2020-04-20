@@ -11,7 +11,8 @@ public class femMera : MonoBehaviour {
     void Start () {
         this.GetComponent<spelController>().rundamax += 5;
         vin.gameObject.SetActive(false);
-        
+        Cursor.lockState = CursorLockMode.Locked;
+
         this.GetComponent<femMera>().enabled = false;
 
     }

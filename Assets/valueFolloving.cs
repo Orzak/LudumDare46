@@ -21,10 +21,12 @@ public class valueFolloving : MonoBehaviour {
         if (value.runda>value.rundamax)
         {
             transform.GetChild(0).transform.GetChild(1).gameObject.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
         else if(value.döda > value.dödaMax)
         {
             transform.GetChild(0).transform.GetChild(2).gameObject.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
         }
 
     }

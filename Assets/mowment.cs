@@ -16,6 +16,15 @@ public class mowment : MonoBehaviour
 
     private Vector3 moveDirection = Vector3.zero;
 
+    private void OnEnable()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+    private void OnDisable()
+    {
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     // Use this for initialization
     void Start()
     {
