@@ -197,6 +197,14 @@ Prefab:
       propertyPath: startSlavar
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1608943838655098, guid: 720c6d1d78987a04e98b63d01fc3e440, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754762155056934, guid: 720c6d1d78987a04e98b63d01fc3e440, type: 2}
+      propertyPath: m_TagString
+      value: MainCamera
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 720c6d1d78987a04e98b63d01fc3e440, type: 2}
   m_IsPrefabAsset: 0

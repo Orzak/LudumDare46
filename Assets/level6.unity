@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -366,6 +366,14 @@ Prefab:
         type: 2}
       propertyPath: startSlavar
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608943838655098, guid: 720c6d1d78987a04e98b63d01fc3e440, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754762155056934, guid: 720c6d1d78987a04e98b63d01fc3e440, type: 2}
+      propertyPath: m_TagString
+      value: MainCamera
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 720c6d1d78987a04e98b63d01fc3e440, type: 2}
@@ -12326,6 +12334,11 @@ Prefab:
     - target: {fileID: 4769495288210542, guid: cccd3403b9bd1ef44a0055bb67695a0a, type: 2}
       propertyPath: m_RootOrder
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 224475410562076054, guid: cccd3403b9bd1ef44a0055bb67695a0a,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cccd3403b9bd1ef44a0055bb67695a0a, type: 2}

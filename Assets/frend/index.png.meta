@@ -93,14 +93,14 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   - serializedVersion: 2
     buildTarget: WebGL
-    maxTextureSize: 32
+    maxTextureSize: 1024
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 29
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
@@ -108,7 +108,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2ccbded2ca7f14e4fb12503598ea7d7c
     vertices: []
     indices: 
     edges: []
