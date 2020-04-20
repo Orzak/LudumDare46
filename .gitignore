@@ -71,3 +71,6 @@ crashlytics-build.properties
 
 
 .vs/
+build/
+Build/
+build Html/
