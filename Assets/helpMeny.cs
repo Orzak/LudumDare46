@@ -13,7 +13,7 @@ public class helpMeny : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetButton("Meny"))
+        if (Input.GetKey(KeyCode.Tab))
         {
            
             meny.gameObject.SetActive(true);
